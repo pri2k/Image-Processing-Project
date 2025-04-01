@@ -1,4 +1,4 @@
- Automated License Plate Recognition (ALPR) System
+ ##AUTOMATED LICENSE PLATE RECOGNITION (ALPR) SYSTEM 
 
  Overview
 This project is an Automated License Plate Recognition (ALPR) System that uses YOLO (You Only Look Once) for object detection and OCR (Optical Character Recognition) for text extraction. 
