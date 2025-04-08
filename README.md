@@ -27,13 +27,13 @@ The system processes images of vehicles, detects license plates, and extracts th
 ## Here is the complete workflow of our ALPR system:
 
 *Uploading the Image* – We start by taking an image of a vehicle containing the license plate.
-Grayscale Conversion – The image is converted to grayscale to reduce complexity, as color is not necessary for detecting edges or characters.
-Pre-processing – This includes noise removal using filters like Gaussian blur to smooth the image, making it easier to detect edges.
-Edge Detection – We apply edge detection (like Canny Edge Detection) to highlight boundaries and shapes in the image, especially around the plate.
-Finding Contours – This step detects possible plate-like regions by finding rectangles or quadrilaterals in the image.
-License Plate Extraction – From the detected contours, we identify the one most likely to be the license plate and crop that region.
-Character Segmentation – We separate individual characters from the plate for recognition.
-Character Recognition – Finally, we use OCR (Optical Character Recognition) to convert the characters into readable text.
+*Grayscale Conversion* – The image is converted to grayscale to reduce complexity, as color is not necessary for detecting edges or characters.
+*Pre-processing* – This includes noise removal using filters like Gaussian blur to smooth the image, making it easier to detect edges.
+*Edge Detection* – We apply edge detection (like Canny Edge Detection) to highlight boundaries and shapes in the image, especially around the plate.
+*Finding Contours* – This step detects possible plate-like regions by finding rectangles or quadrilaterals in the image.
+*License Plate Extraction* – From the detected contours, we identify the one most likely to be the license plate and crop that region.
+*Character Segmentation* – We separate individual characters from the plate for recognition.
+*Character Recognition* – Finally, we use OCR (Optical Character Recognition) to convert the characters into readable text.
 
 This entire pipeline forms the backbone of our license plate recognition system.
 
